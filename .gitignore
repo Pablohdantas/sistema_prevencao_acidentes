@@ -1,0 +1,15 @@
+# Ambiente virtual
+.venv/
+venv/
+*.env
+
+# Dados
+data/raw/
+data/processed/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints
