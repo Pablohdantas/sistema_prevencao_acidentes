@@ -5,7 +5,6 @@ venv/
 
 # Dados
 data/raw/
-data/processed/
 
 # Cache do Python
 __pycache__/
@@ -13,3 +12,4 @@ __pycache__/
 
 # Notebooks
 .ipynb_checkpoints
+data/processed/df_final_ml.csv
