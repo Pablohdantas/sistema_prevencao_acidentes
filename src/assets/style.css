@@ -1,0 +1,139 @@
+/* ============================================================
+   TEMA PROFISSIONAL PRF – DASHBOARD DE ACIDENTES
+   Azul escuro (#1E3A8A), amarelo (#FBBF24), cinzas modernos.
+   ============================================================ */
+
+/* Fundo geral */
+body {
+    background-color: #F3F4F6 !important;
+    color: #1F2937 !important;
+    font-family: "Inter", Arial, sans-serif !important;
+}
+
+/* Container principal */
+main.container {
+    max-width: 1400px;
+    padding: 20px;
+}
+
+/* Títulos principais */
+h1 {
+    color: #1E3A8A !important;
+    font-weight: 800 !important;
+    font-size: 2.3rem;
+}
+
+h2 {
+    color: #065F46 !important;
+    font-weight: 600;
+}
+
+/* Subtítulos */
+h3 {
+    color: #1E3A8A !important;
+    font-weight: 700 !important;
+    margin-bottom: 12px !important;
+}
+
+/* Cartões (article com PicoCSS) */
+article {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    border: 1px solid #E5E7EB;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover bonito nos cards */
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Grids ficam com mais espaço */
+section.grid {
+    gap: 25px !important;
+}
+
+/* Barras do plotly mais suaves */
+.js-plotly-plot .plotly .main-svg {
+    border-radius: 10px !important;
+}
+
+/* Texto do preditivo */
+#risco-previsto-texto {
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151;
+}
+
+#risco-previsto-valor {
+    background: #eef2ff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* ----------------------- TABELA ----------------------- */
+
+/* Mais espaçamento entre linhas */
+.dash-table-container .dash-table-inner table {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+/* Cabeçalho mais bonito */
+.dash-header {
+    font-weight: bold !important;
+    background: #1E3A8A !important;
+    color: white !important;
+}
+
+/* Linhas alternadas com cinza claro */
+.dash-table-container .cell--odd {
+    background: #F9FAFB !important;
+}
+
+/* Highlight ao passar o mouse */
+.dash-table-container td:hover {
+    background-color: #E0F2FE !important;
+}
+
+/* Recomendação (emoji + texto) */
+td[data-dash-column="Recomendação"] {
+    font-weight: 700;
+    color: #1E3A8A !important;
+}
+
+/* Acidentes coloridos */
+td[data-dash-column="acidentes"] {
+    font-weight: 800;
+}
+
+/* Scroll da tabela arredondado */
+.dash-table-container .dash-spreadsheet-container {
+    border-radius: 10px !important;
+}
+
+/* ---------------------- BOTÕES (se adicionar) ---------------------- */
+
+button, .btn {
+    background-color: #1E3A8A !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    padding: 10px 16px !important;
+}
+
+button:hover {
+    background-color: #152A6D !important;
+}
+
+/* ---------------------- MAPA ---------------------- */
+
+#mapa {
+    border-radius: 12px;
+    overflow: hidden;
+}
