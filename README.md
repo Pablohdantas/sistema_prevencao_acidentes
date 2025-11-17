@@ -57,10 +57,11 @@ O arquivo principal de dados (`df_final_ml.csv`) excede o limite de 100 MB do Gi
 
 1.  **Baixe o arquivo**:
     [dt_final_ml.csv](https://drive.google.com/file/d/1gyYByUQebV5riYrrnP9ANqd-KtSHMHFt/view?usp=drive_link)
-
-2.  Após o download, mova o arquivo **`df_final_ml.csv`** para a pasta:
+    
+2.  Após o download, crie a pasta **`data`** na raiz do projeto dentro dela cria a pasta **`processed`** e mova o arquivo **`df_final_ml.csv`** para:
 
     `sistema_prevencao_acidentes/data/processed/`
+
 
 ### Passo 5: Execute o dashboard
 ```bash
