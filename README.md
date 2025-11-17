@@ -69,3 +69,5 @@ python src/dashboard.py
 ```
 ## 3. Documentação Técnica
 * **Análise Exploratória (EDA):** [Notebook de EDA](https://github.com/Pablohdantas/sistema_prevencao_acidentes/blob/main/notebooks/eda.ipynb)
+* **Documentação/relatório:** [Documentação sistema inteligente de prevenção de acidentes de trânsito](https://drive.google.com/file/d/1is6ZMsx0nakg99K6aJ0-4CrFaXYPaPNz/view?usp=drive_link)
+
